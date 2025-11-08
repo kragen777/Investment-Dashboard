@@ -1,59 +1,58 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Investment-Pitch Dashboard</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 2em; background: #f8f9fb;}
-    h1 { color: #2c3e50;}
-    table { border-collapse: collapse; width: 100%; margin-bottom: 1.5em;}
-    th, td { padding: 0.8em 1em; border: 1px solid #ccc; }
-    th { background: #e7ecef; }
-    .section { margin-bottom: 2em; }
-    .pitch-details { background: #f2f6fa; padding: 1em; border-radius: 8px;}
-    .todo { color: #1b7b34; }
-  </style>
+    <meta charset="UTF-8">
+    <title>Investment-Pitch Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; background: #f8f9fb;}
+        h1 { color: #2c3e50;}
+        table { border-collapse: collapse; width: 100%; margin-bottom: 1.5em;}
+        th, td { padding: 0.8em 1em; border: 1px solid #ccc; }
+        th { background: #e7ecef; }
+        .section { margin-bottom: 2em; }
+        .pitch-details { background: #f2f6fa; padding: 1em; border-radius: 8px;}
+        .todo { color: #1b7b34; }
+    </style>
 </head>
 <body>
 <h1>Daily Investment-Pitch Dashboard</h1>
 <div class="section">
-  <h2>Übersicht aller Pitches</h2>
-  <table id="overview">
-    <tr>
-      <th>Pitch-Name</th>
-      <th>Letztes Update</th>
-      <th>Wichtigste Neuerung</th>
-      <th>Status/Kommentar</th>
-    </tr>
-    <!-- Zeilen werden per JS hinzugefügt -->
-  </table>
+    <h2>Übersicht aller Pitches</h2>
+    <table id="overview">
+        <tr>
+            <th>Pitch-Name</th>
+            <th>Letztes Update</th>
+            <th>Wichtigste Neuerung</th>
+            <th>Status/Kommentar</th>
+        </tr>
+        <!-- Zeilen werden per JS hinzugefügt -->
+    </table>
 </div>
 <div class="section pitch-details" id="details">
-  <h2>Detail-Updates</h2>
-  <!-- Pitch-Detailblöcke werden per JS hinzugefügt -->
+    <h2>Detail-Updates</h2>
+    <!-- Pitch-Detailblöcke werden per JS hinzugefügt -->
 </div>
 <script>
 fetch('pitches.json')
-  .then(response => response.json())
-  .then(data => {
-    let overview = document.getElementById('overview');
-    let details = document.getElementById('details');
-    data.forEach(pitch => {
-      // Tabelle befüllen
-      let row = document.createElement('tr');
-      row.innerHTML = `<td>${pitch.name}</td>
-                       <td>${pitch.lastUpdate}</td>
-                       <td>${pitch.news}</td>
-                       <td>${pitch.status}</td>`;
-      overview.appendChild(row);
-
-      // Details befüllen
-      let block = document.createElement('div');
-      block.innerHTML = `<h3>${pitch.name}</h3>
-        <ul>${pitch.details.map(item => `<li>${item}</li>`).join('')}</ul>`;
-      details.appendChild(block);
+    .then(response => response.json())
+    .then(data => {
+        let overview = document.getElementById('overview');
+        let details = document.getElementById('details');
+        data.forEach(pitch => {
+            // Tabelle befüllen
+            let row = document.createElement('tr');
+            row.innerHTML = `<td>${pitch.name}</td>
+                <td>${pitch.lastUpdate}</td>
+                <td>${pitch.news}</td>
+                <td>${pitch.status}</td>`;
+            overview.appendChild(row);
+            // Details befüllen
+            let block = document.createElement('div');
+            block.innerHTML = `<h3>${pitch.name}</h3>
+                <ul>${pitch.details.map(item => `<li>${item}</li>`).join('')}</ul>`;
+            details.appendChild(block);
+        });
     });
-  });
 </script>
 </body>
 </html>
