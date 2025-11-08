@@ -1,0 +1,34 @@
+[
+  {
+    "name": "ANGI Inc.",
+    "lastUpdate": "08.11.2025",
+    "news": "Gewinnmargensteigerung +5,4%",
+    "status": "Leicht positiv, Umsatzwachstum unter Marktdurchschnitt",
+    "details": [
+      "Gewinnmarge von 0,1% auf 5,5% gestiegen, Umsatzwachstum moderat.",
+      "Spin-off von IAC erfolgt, CEO- und Chairman-Positionen besetzt.",
+      "Leichtes Wachstum, Umfeld stabil."
+    ]
+  },
+  {
+    "name": "IAC Inc",
+    "lastUpdate": "08.11.2025",
+    "news": "Neue Partnerschaft mit XYZ",
+    "status": "Wachstumsstrategie adaptiert",
+    "details": [
+      "Umsatz mit neuem Kunden um 15% gewachsen.",
+      "Expansion nach Frankreich beschlossen."
+    ]
+  }
+  },
+  {
+    "name": "Northern Dynestrie Minerals",
+    "lastUpdate": "08.11.2025",
+    "news": "Neue Partnerschaft mit XYZ",
+    "status": "Wachstumsstrategie adaptiert",
+    "details": [
+      "Umsatz mit neuem Kunden um 15% gewachsen.",
+      "Expansion nach Frankreich beschlossen."
+    ]
+  }
+]
