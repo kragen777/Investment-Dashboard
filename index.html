@@ -44,7 +44,7 @@ const companies = [
 async function fetchCompanyData(symbol) {
     try {
         // Verwende Yahoo Finance Alternative API (kostenlos, kein API-Key nötig)
-        const response = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=5d`);
+        const response = await fetch(`https://api.allorigins.win/raw?url=https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?interval=1d&range=5d`);
         const data = await response.json();
         
         if (data.chart && data.chart.result && data.chart.result[0]) {
