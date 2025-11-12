@@ -1,33 +1,156 @@
 [
   {
-    "name": "ANGI Inc.",
-    "lastUpdate": "08.11.2025",
-    "news": "Gewinnmargensteigerung +5,4%",
-    "status": "Leicht positiv, Umsatzwachstum unter Marktdurchschnitt",
+    "name": "Comstock Inc. (LODE)",
+    "ticker": "LODE",
+    "lastUpdate": "12.11.2025",
+    "news": "Q3 2025: Schulden eliminiert, Kommerzialisierung läuft",
+    "status": "Neutral - Transformation in Gang",
     "details": [
-      "Gewinnmarge von 0,1% auf 5,5% gestiegen, Umsatzwachstum moderat.",
-      "Spin-off von IAC erfolgt, CEO- und Chairman-Positionen besetzt.",
-      "Leichtes Wachstum, Umfeld stabil."
+      "Q3 Ergebnisse am 30. Oktober veröffentlicht",
+      "Schulden komplett eliminiert, Kapitalbasis gestärkt",
+      "Solar Panel Processing Industrial Scale Genehmigung erhalten",
+      "Fokus auf Kommerzialisierung von Comstock Metals",
+      "Aktie YTD +61,88%, aktuell ~$3,00"
     ]
   },
   {
-    "name": "IAC Inc",
-    "lastUpdate": "08.11.2025",
-    "news": "Neue Partnerschaft mit XYZ",
-    "status": "Wachstumsstrategie adaptiert",
+    "name": "Duolingo Inc. (DUOL)",
+    "ticker": "DUOL",
+    "lastUpdate": "12.11.2025",
+    "news": "KRITISCH: -25% Crash trotz starker Q3 Zahlen",
+    "status": "🔴 Kritisch - Strategiewechsel belastet Aktie",
     "details": [
-      "Umsatz mit neuem Kunden um 15% gewachsen.",
-      "Expansion nach Frankreich beschlossen."
+      "Schlechtester Tag in Unternehmensgeschichte: -25% am 7. November",
+      "Q3 übertrifft Erwartungen: Revenue +41% auf $272M",
+      "Strategiewechsel: Fokus auf langfristiges Nutzerwachstum statt kurzfristige Monetarisierung",
+      "Q4 Guidance enttäuschend: Bookings $329-335M vs. erwartet $344M",
+      "DAU/MAU leicht unter Erwartungen (50,5M vs. 51,2M)",
+      "Aktie gefallen von $545 (52-Wochen-Hoch) auf ~$201"
     ]
   },
   {
-    "name": "Northern Dynestrie Minerals",
-    "lastUpdate": "08.11.2025",
-    "news": "Neue Partnerschaft mit XYZ",
-    "status": "Wachstumsstrategie adaptiert",
+    "name": "ANGI Inc. (ANGI)",
+    "ticker": "ANGI",
+    "lastUpdate": "12.11.2025",
+    "news": "Turnaround erfolgreich - Erstes Wachstum seit 2021",
+    "status": "✅ Positiv - Turnaround zeigt Erfolg",
     "details": [
-      "Umsatz mit neuem Kunden um 15% gewachsen.",
-      "Expansion nach Frankreich beschlossen."
+      "Q3 2025: Erstes proprietäres Volumenwachstum seit 2021",
+      "Stock +15,54% im Pre-Market nach Q2",
+      "Mid-single-digit Revenue Growth für 2025 erwartet",
+      "TV Advertising Budget verdoppelt",
+      "Net Promoter Score um 30 Punkte gestiegen (2 Jahre)",
+      "Neue AI Helper Funktion eingeführt (Juni 2025)",
+      "Analystenziel: $15-17 (UBS, Keybanc)"
+    ]
+  },
+  {
+    "name": "Kaspi.kz JSC (KSPI)",
+    "ticker": "KSPI",
+    "lastUpdate": "12.11.2025",
+    "news": "Starkes Q3 Wachstum, $100M Aktienrückkauf angekündigt",
+    "status": "✅ Sehr Positiv - Starkes Wachstum",
+    "details": [
+      "Q3 2025 (10. Nov): Revenue +20% YoY, Net Income +12% YoY",
+      "9M 2025: Revenue +20%, Net Income +14%",
+      "Payments TPV +18%, Marketplace Revenue +24% vs GMV +12%",
+      "Advertising Revenue +56%",
+      "$100M Aktienrückkaufprogramm angekündigt",
+      "Herausforderung: Smartphone-Lieferengpässe in Kasachstan",
+      "FY 2025 Guidance: Net Income +10-12%"
+    ]
+  },
+  {
+    "name": "Litigation Capital Management (LIT.L)",
+    "ticker": "LIT.L",
+    "lastUpdate": "12.11.2025",
+    "news": "KRITISCH: Going Concern Risiko, -60% Crash",
+    "status": "🔴 Sehr Kritisch - Existenzbedrohung",
+    "details": [
+      "Aktienkurs crashed -60% am 1. Oktober auf 10,6p (von 26,6p)",
+      "High Court Niederlage in London (Oktober)",
+      "Jahresverlust A$79M (vs. +A$12,7M Vorjahr)",
+      "6 Siege, 6 Niederlagen, 3 weitere Niederlagen in Berufung",
+      "Going Concern Risiko - Material uncertainty gemeldet",
+      "Strategic Review läuft mit Luminis Partners",
+      "Betriebskosten halbiert, möglicher Run-off Status",
+      "AGM verschoben auf 27. November 2025",
+      "Aktie -99% seit letztem November"
+    ]
+  },
+  {
+    "name": "IAC Inc. (IAC)",
+    "ticker": "IAC",
+    "lastUpdate": "12.11.2025",
+    "news": "Q3 2025: 8. Quartal Digital Revenue Growth in Folge",
+    "status": "Neutral/Positiv - Stabile Entwicklung",
+    "details": [
+      "Q3 2025: 8. Quartal in Folge mit Digital Revenue Growth (+9%)",
+      "Q3 Results veröffentlicht am 3. November",
+      "Benchmark senkte Kursziel von $60 auf $57",
+      "Aktie bei ~$33, Konsensus-Target $46,54",
+      "Analystenmeinung: 'Moderate Buy'"
+    ]
+  },
+  {
+    "name": "Northern Dynasty Minerals (NAK)",
+    "ticker": "NAK",
+    "lastUpdate": "12.11.2025",
+    "news": "Pebble Mine weiter blockiert - Keine EPA Fortschritte",
+    "status": "🔴 Sehr Kritisch - Projekt blockiert",
+    "details": [
+      "Aktie -60% gefallen (August)",
+      "Pebble Mine Projekt weiterhin blockiert durch EPA Veto (2023)",
+      "Unternehmen hat bis heute keine überarbeitete Projektvorlage bei EPA eingereicht",
+      "$12M Royalty Payment erhalten (September) - 4. Tranche, total $48M",
+      "Gerichtsverfahren gegen EPA läuft, Vergleichsgespräche ohne Fortschritt",
+      "H.C. Wainwright bekräftigt 'Buy'-Rating trotz Blockade"
+    ]
+  },
+  {
+    "name": "Panthera Resources (PAT.L)",
+    "ticker": "PAT.L",
+    "lastUpdate": "12.11.2025",
+    "news": "Neue Aktien für Wandelschulden ausgegeben",
+    "status": "Neutral - Keine wesentlichen operativen Updates",
+    "details": [
+      "Neue Aktien für Wandelschulden ausgegeben (November 2025)",
+      "Cross-Trading auf OTCQB Market angekündigt",
+      "Technisch positive Performance laut AI Analyst",
+      "Keine operativen News oder Explorationsupdates gefunden"
+    ]
+  },
+  {
+    "name": "MercadoLibre Inc. (MELI)",
+    "ticker": "MELI",
+    "lastUpdate": "12.11.2025",
+    "news": "Q3 2025: Starkes Umsatzwachstum, aber Gewinn enttäuscht",
+    "status": "⚠️ Gemischt - Wachstum vs. Margendruck",
+    "details": [
+      "Q3 2025 (29. Okt): Net Revenue $7,4B (+39,5% YoY) - 27. Quartal >30% Wachstum",
+      "ABER: Net Profit unter Erwartungen ($8,32 vs. $9,88 EPS)",
+      "EBIT $724M (unter $752M Erwartung)",
+      "Herausforderungen: Währungseffekte, schwächere Nachfrage in Argentinien",
+      "Free Shipping Boost in Brasilien drückt Margen",
+      "Q4 2025 Consensus: $8,54B Revenue (+39%)"
+    ]
+  },
+  {
+    "name": "Diageo PLC (DEO)",
+    "ticker": "DEO",
+    "lastUpdate": "12.11.2025",
+    "news": "FY 2025: Schwaches Wachstum, hohe Verschuldung",
+    "status": "⚠️ Negativ - Wachstumsschwäche",
+    "details": [
+      "FY 2025 Ergebnisse (August): Organic Sales +1,7%, Operating Profit -0,7%",
+      "Operating Profit Margin vor Exceptionals: 28,2% (-68bps)",
+      "EPS pre-exceptionals: 164,2 cents (-8,6%)",
+      "Leverage Ratio: 3,4x (Schulden $21,9B)",
+      "Dividende: 103,48 cents (nächste Zahlung 4. Dezember)",
+      "FY 2026 Outlook: Organic Sales Growth ähnlich wie FY25, Operating Profit mid-single-digit",
+      "Kosteneinsparungsprogramm erhöht auf ~$625M (von $500M)",
+      "Marktanteil in 65% der Märkte gehalten/gewachsen",
+      "Kritik: Hohe Payout Ratio 98%, Dividende kaum durch Earnings gedeckt"
     ]
   }
 ]
